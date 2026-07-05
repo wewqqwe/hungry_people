@@ -1,5 +1,3 @@
-// Hungry People — скрипты первого экрана
-
 $(function () {
   var $menu = $('.menu');
 
