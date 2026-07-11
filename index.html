@@ -12,7 +12,6 @@
 </head>
 <body>
 
-<!--  шапка + первый экран -->
 <header class="header" id="home">
   <nav class="navbar navbar-expand-lg menu">
     <div class="container">
@@ -68,7 +67,6 @@
   </div>
 </header>
 
-<!-- про нас -->
 <section class="about" id="about">
   <div class="container">
     <div class="row align-items-center">
@@ -85,6 +83,178 @@
           <img class="about__photo-img" src="img/about.jpg" alt="About Hungry People">
           <span class="about__frame"></span>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="team" id="team">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-5 text-center">
+        <div class="about__photo">
+          <img class="about__photo-img" src="img/chef.jpg" alt="">
+          <span class="about__frame"></span>
+        </div>
+      </div>
+      <div class="col-lg-7 text-center">
+        <h2>Our Team</h2>
+        <div class="line"></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</p>
+        <p>Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="booking" id="booking">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <h2 class="text-center">Book a Table</h2>
+        <div class="line"></div>
+        <form id="bookingForm">
+          <div class="row">
+            <div class="col-6"><input type="text" class="form-control myinput" placeholder="Name"></div>
+            <div class="col-6"><input type="email" class="form-control myinput" placeholder="Email"></div>
+            <div class="col-6"><input type="tel" class="form-control myinput" placeholder="Phone"></div>
+            <div class="col-6"><input type="number" class="form-control myinput" placeholder="People"></div>
+            <div class="col-6"><input type="date" class="form-control myinput"></div>
+            <div class="col-6"><input type="time" class="form-control myinput"></div>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn btn--yellow" style="margin-top:15px">Book Now</button>
+          </div>
+        </form>
+      </div>
+      <div class="col-lg-6 text-center">
+        <div class="about__photo">
+          <img class="about__photo-img" src="img/booking.jpg" alt="">
+          <span class="about__frame"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- сюда потом листалку не забыть -->
+
+<section class="food" id="menu">
+  <div class="container">
+    <h2 class="text-center">Delicious Menu</h2>
+    <div class="line"></div>
+    <p class="text-center menu-sub">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae culpa eum nemo eius, dicta soluta.</p>
+
+    <div class="tabs text-center">
+      <button class="tab" data-cat="pizza">Pizza</button>
+      <button class="tab" data-cat="beer">Beer</button>
+      <button class="tab" data-cat="wine">Wine</button>
+      <button class="tab" data-cat="desert">Desert</button>
+      <button class="tab" data-cat="soupe">Soupe</button>
+      <button class="tab" data-cat="drinks">Drinks</button>
+      <button class="tab" data-cat="pasta">Pasta</button>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4 food-item" data-category="desert">
+        <p class="dish"><span>DESERT DESERT DESERT</span> <b>48.99 USD</b></p>
+        <small>Integer ullamcorper neque eu purus euismod</small>
+      </div>
+      <div class="col-md-4 food-item" data-category="wine">
+        <p class="dish"><span>WINE WINE WINE</span> <b>39.55 USD</b></p>
+        <small>Integer ullamcorper neque eu purus euismod</small>
+      </div>
+      <div class="col-md-4 food-item" data-category="beer">
+        <p class="dish"><span>BEER BEER BEER</span> <b>41.39 USD</b></p>
+        <small>Integer ullamcorper neque eu purus euismod</small>
+      </div>
+      <div class="col-md-4 food-item" data-category="drinks">
+        <p class="dish"><span>DRINKS DRINKS DRINKS</span> <b>47.89 USD</b></p>
+        <small>Integer ullamcorper neque eu purus euismod</small>
+      </div>
+      <div class="col-md-4 food-item" data-category="soupe">
+        <p class="dish"><span>SOUPE SOUPE SOUPE</span> <b>55.00 USD</b></p>
+        <small>Integer ullamcorper neque eu purus euismod</small>
+      </div>
+      <div class="col-md-4 food-item" data-category="pasta">
+        <p class="dish"><span>PASTA PASTA PASTA</span> <b>49.55 USD</b></p>
+        <small>Integer ullamcorper neque eu purus euismod</small>
+      </div>
+      <div class="col-md-4 food-item" data-category="desert">
+        <p class="dish"><span>DESERT DESERT DESERT</span> <b>48.99 USD</b></p>
+        <small>Integer ullamcorper neque eu purus euismod</small>
+      </div>
+      <div class="col-md-4 food-item" data-category="wine">
+        <p class="dish"><span>WINE WINE WINE</span> <b>39.55 USD</b></p>
+        <small>Integer ullamcorper neque eu purus euismod</small>
+      </div>
+      <div class="col-md-4 food-item" data-category="beer">
+        <p class="dish"><span>BEER BEER BEER</span> <b>41.39 USD</b></p>
+        <small>Integer ullamcorper neque eu purus euismod</small>
+      </div>
+      <div class="col-md-4 food-item" data-category="drinks">
+        <p class="dish"><span>DRINKS DRINKS DRINKS</span> <b>47.89 USD</b></p>
+        <small>Integer ullamcorper neque eu purus euismod</small>
+      </div>
+      <div class="col-md-4 food-item" data-category="soupe">
+        <p class="dish"><span>SOUPE SOUPE SOUPE</span> <b>55.00 USD</b></p>
+        <small>Integer ullamcorper neque eu purus euismod</small>
+      </div>
+      <div class="col-md-4 food-item" data-category="pasta">
+        <p class="dish"><span>PASTA PASTA PASTA</span> <b>49.55 USD</b></p>
+        <small>Integer ullamcorper neque eu purus euismod</small>
+      </div>
+      <div class="col-md-4 food-item" data-category="desert">
+        <p class="dish"><span>DESERT DESERT DESERT</span> <b>48.99 USD</b></p>
+        <small>Integer ullamcorper neque eu purus euismod</small>
+      </div>
+      <div class="col-md-4 food-item" data-category="wine">
+        <p class="dish"><span>WINE WINE WINE</span> <b>39.55 USD</b></p>
+        <small>Integer ullamcorper neque eu purus euismod</small>
+      </div>
+      <div class="col-md-4 food-item" data-category="beer">
+        <p class="dish"><span>BEER BEER BEER</span> <b>41.39 USD</b></p>
+        <small>Integer ullamcorper neque eu purus euismod</small>
+      </div>
+      <div class="col-md-4 food-item" data-category="drinks">
+        <p class="dish"><span>DRINKS DRINKS DRINKS</span> <b>47.89 USD</b></p>
+        <small>Integer ullamcorper neque eu purus euismod</small>
+      </div>
+      <div class="col-md-4 food-item" data-category="soupe">
+        <p class="dish"><span>SOUPE SOUPE SOUPE</span> <b>55.00 USD</b></p>
+        <small>Integer ullamcorper neque eu purus euismod</small>
+      </div>
+      <div class="col-md-4 food-item" data-category="pasta">
+        <p class="dish"><span>PASTA PASTA PASTA</span> <b>49.55 USD</b></p>
+        <small>Integer ullamcorper neque eu purus euismod</small>
+      </div>
+      <div class="col-md-4 food-item" data-category="desert">
+        <p class="dish"><span>DESERT DESERT DESERT</span> <b>48.99 USD</b></p>
+        <small>Integer ullamcorper neque eu purus euismod</small>
+      </div>
+      <div class="col-md-4 food-item" data-category="wine">
+        <p class="dish"><span>WINE WINE WINE</span> <b>39.55 USD</b></p>
+        <small>Integer ullamcorper neque eu purus euismod</small>
+      </div>
+      <div class="col-md-4 food-item" data-category="beer">
+        <p class="dish"><span>BEER BEER BEER</span> <b>41.39 USD</b></p>
+        <small>Integer ullamcorper neque eu purus euismod</small>
+      </div>
+      <div class="col-md-4 food-item" data-category="pizza">
+        <p class="dish"><span>PIZZA PIZZA PIZZA</span> <b>50.00 USD</b></p>
+        <small>Integer ullamcorper neque eu purus euismod</small>
+      </div>
+      <div class="col-md-4 food-item" data-category="pizza">
+        <p class="dish"><span>PIZZA PIZZA PIZZA</span> <b>50.00 USD</b></p>
+        <small>Integer ullamcorper neque eu purus euismod</small>
+      </div>
+      <div class="col-md-4 food-item" data-category="pizza">
+        <p class="dish"><span>PIZZA PIZZA PIZZA</span> <b>50.00 USD</b></p>
+        <small>Integer ullamcorper neque eu purus euismod</small>
+      </div>
+      <div class="col-md-4 food-item" data-category="pizza">
+        <p class="dish"><span>PIZZA PIZZA PIZZA</span> <b>50.00 USD</b></p>
+        <small>Integer ullamcorper neque eu purus euismod</small>
       </div>
     </div>
   </div>
