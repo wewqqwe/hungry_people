@@ -1,0 +1,11 @@
+{
+  "name": "student/hungry",
+  "description": "restoran, praktika",
+  "autoload": {
+    "classmap": ["models", "controllers"],
+    "files": ["db.php"]
+  },
+  "require": {
+    "php": ">=7.4"
+  }
+}
